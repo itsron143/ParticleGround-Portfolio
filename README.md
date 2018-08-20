@@ -2,7 +2,7 @@
 
 A particle-theme template as a landing page for your portfolio.
 
-A demo can be found [here](https://itsron717.github.io)
+Demo can be found [here](https://itsron717.github.io)
 
 <img src="particle_demo/particle_demo.png"/>
 
