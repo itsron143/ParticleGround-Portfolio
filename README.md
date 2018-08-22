@@ -22,7 +22,7 @@ Demo can be found [here](https://itsron717.github.io)
     
   - Modify `index.html` to change the names and links to point at your pages.
   
-  - Upload your resume in the place of `deedy.pdf` (Or One can use the infamous deedy template and build one)
+  - Upload your resume in the place of `deedy.pdf` (Or One can use the famous deedy template and build on that)
    
 # Particle Feature
 
