@@ -1,28 +1,42 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;  
+  vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 body {
   line-height: 1;
+  color: black;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 table {
@@ -34,19 +48,20 @@ table {
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
 body {
-  background: #000010;
-  font-family: 'Montserrat', sans-serif;
+  background: #000000;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
@@ -74,7 +89,7 @@ h2 {
   letter-spacing: 0.05em;
 }
 h1::after {
-  content: '';
+  content: "";
   width: 80px;
   display: block;
   background: #fff;
@@ -85,7 +100,7 @@ h1::after {
 p {
   margin: 0 0 30px 0;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media only screen and (max-width: 1000px) {
