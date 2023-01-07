@@ -32,6 +32,14 @@ table {
 
 /* particleground demo */
 
+hr {
+  border: 2px solid;
+  border-radius: 5px;
+  width: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -45,7 +53,7 @@ html, body {
 }
 
 body {
-  background: #000010;
+  background: #212122;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   line-height: 1.3;
