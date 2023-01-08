@@ -1,28 +1,28 @@
-# ParticleGround-Portfolio
+# Faragon-Portfolio
 
 A particle-theme template as a landing page for your portfolio.
 
-> [Demo](https://landing-page--itsron717.repl.co/)
+> [Demo](https://faragonrueda.tech/)
 
-<img src="particle_demo/particle_demo.png"/>
+<img src="particle_demo/faragon_portfolio.png"/>
 
 # Using the Template
 
   - Fork and Clone the repository
 
     ```
-    $ git clone https://github.com/itsron717/ParticleGround-Portfolio.git
+    $ git clone https://github.com/espfrant/faragon-portfolio
     ```
  
   - Go inside the main repository
   
     ```
-    $ cd ParticleGround-Portfolio
+    $ cd faragon-Portfolio
     ```
     
   - Modify `index.html` to change the names and links to point at your pages.
   
-  - Upload your resume in the place of `deedy.pdf` (Or One can use the famous deedy template and build on that)
+  - Upload your resume in the place of `*.pdf`
    
 # Particle Feature
 
