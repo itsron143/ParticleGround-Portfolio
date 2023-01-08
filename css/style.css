@@ -1,30 +1,48 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;  
+  vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -42,11 +60,12 @@ hr {
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -74,6 +93,26 @@ body {
   width: 100%;
   text-align: center;
 }
+
+#boton {
+  padding: 0 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5%;
+}
+
+.boton {
+  border: 1px solid #E83951;
+  padding: 10px 28px;
+  background-color: #E83951;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ubuntu Mono', monospace;
+  border-radius: 15px;
+  font-weight: 12;
+}
+
 h2 {
   text-transform: uppercase;
   font-size: 50px;
@@ -81,6 +120,7 @@ h2 {
   color: #ffffff;
   letter-spacing: 0.05em;
 }
+
 h1::after {
   content: '';
   width: 80px;
@@ -90,6 +130,7 @@ h1::after {
   margin: 30px auto;
   line-height: 1.1;
 }
+
 p {
   margin: 0 0 30px 0;
   font-size: 24px;
@@ -106,6 +147,7 @@ p {
   h1 {
     font-size: 15px;
   }
+
   h1::after {
     height: 8px;
   }
@@ -115,15 +157,19 @@ p {
   #intro {
     padding: 0 10px;
   }
+
   h1 {
     font-size: 15px;
   }
+
   h1::after {
     height: 6px;
   }
+
   p {
     font-size: 18px;
   }
+
   .btn {
     font-size: 16px;
   }
@@ -133,6 +179,7 @@ p {
   h1 {
     font-size: 15px;
   }
+
   h1::after {
     height: 4px;
   }
