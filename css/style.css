@@ -142,3 +142,12 @@ p {
     height: 4px;
   }
 }
+
+@media only screen and (max-width: 100px) {
+  h2 {
+    font-size: 15px;
+  }
+  h2::after {
+    height: 4px;
+  }
+}
