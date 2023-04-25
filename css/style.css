@@ -4,7 +4,7 @@
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;  
+  vertical-align: baseline;
 }
 
 article, aside, details, figcaption, figure,
@@ -68,11 +68,24 @@ body {
 }
 h2 {
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 120;
   color: #ffffff;
+  text-align: center;
   letter-spacing: 0.05em;
 }
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
 h1::after {
   content: '';
   width: 80px;
