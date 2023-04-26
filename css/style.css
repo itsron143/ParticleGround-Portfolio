@@ -68,7 +68,7 @@ body {
 }
 h2 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 120;
   color: #ffffff;
   text-align: center;
@@ -101,13 +101,13 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 640px) {
   h1 {
     font-size: 15px;
   }
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 640px) {
   h1 {
     font-size: 15px;
   }
@@ -116,7 +116,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 640px) {
   #intro {
     padding: 0 10px;
   }
@@ -134,7 +134,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 640px) {
   h1 {
     font-size: 15px;
   }
@@ -143,11 +143,32 @@ p {
   }
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 640px) {
   h2 {
-    font-size: 15px;
-  }
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 10px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-weight: 1px;
+    font-size-adjust: inherit;
+}
   h2::after {
     height: 4px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  #intro img {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+  @media only screen and (max-width: 640px) {
+    /* decrease the size of the icons by 3 times */
+    intro a {
+      font-size: 0.67em;
+    }
+  }
