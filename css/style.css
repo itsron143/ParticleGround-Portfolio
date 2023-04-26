@@ -166,14 +166,16 @@ p {
   }
 }
 
-  @media only screen and (max-width: 640px) {
-    /* decrease the size of the icons by 3 times */
-    intro a {
-      font-size: 0.67em;
-    }
+@media only screen and (max-width: 640px) {
+  /* decrease the size of the icons by 3 times */
+  #intro a i {
+    font-size: 0.67em;
   }
+}
 
-  @media only screen and (max-width: 640px) {
-    hr {
+@media only screen and (max-width: 640px) {
+  hr {
     width: 60%;
+
   }
+}
