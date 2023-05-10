@@ -72,6 +72,10 @@ h2 {
   font-weight: 120;
   color: #ffffff;
   letter-spacing: 0.05em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 h1::after {
   content: '';
@@ -86,6 +90,32 @@ p {
   margin: 0 0 30px 0;
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
+}
+
+.image{
+  width: 8vw;
+  height: auto;
+  border-radius: 15px;
+}
+
+.glow-text {
+  color: #fff; /* Set the text color */
+  font-size: 48px; /* Set the font size */
+  /* font-weight: bold; Set the font weight */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; /* Set the text shadow */
+  animation: glowing 1.5s infinite; /* Apply the animation */
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
