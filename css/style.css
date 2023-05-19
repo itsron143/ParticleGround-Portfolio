@@ -43,6 +43,19 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
+.glow-a {
+  color: #fff;
+  text-align: center;
+  /* font-size: 2em; */
+  /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; */
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.glow-a:hover {
+  color: black;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px
+  #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
 
 body {
   background: #000010;
@@ -96,6 +109,60 @@ p {
   width: 8vw;
   height: auto;
   border-radius: 15px;
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.instagram {
+  background-color: #e4405f;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover::before,
+.button:hover::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.button:hover::before {
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover::after {
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .glow-text {
