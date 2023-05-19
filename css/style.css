@@ -57,6 +57,14 @@ html, body {
   #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }
 
+.glow-image {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-image:hover {
+  box-shadow: 0 0 30px #ff00de;
+}
+
 body {
   background: #000010;
   font-family: 'Montserrat', sans-serif;
