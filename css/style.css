@@ -129,3 +129,7 @@ p {
     height: 4px;
   }
 }
+#intro  a{
+  border-radius:3.5rem;
+  padding:2px;
+}
